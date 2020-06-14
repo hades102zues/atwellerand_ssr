@@ -1,0 +1,114 @@
+/*Globals*/
+
+.wrapper {
+    width: 85%;
+    margin: 0 auto;
+    overflow: hidden;
+    max-width: 125rem;
+}
+
+.sec_padding {
+    padding: 4.5rem 0;
+}
+
+.sec_grey {
+    background-color: #f8f9fa;
+}
+
+/*Global End*/
+
+/*Error*/
+.form_error {
+    color: red;
+    margin: 10px 0 5px 20px;
+    font-weight: bold;
+    font-size: 1.6rem;
+}
+
+/*Error*/
+
+/*contact*/
+.contact_info_space {
+}
+
+.contact_info_box {
+    width: 75rem;
+
+    margin: 0 auto;
+}
+
+.contact_form {
+}
+
+.form_group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.5rem;
+}
+
+.form_label {
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.input_field {
+    height: 4.4rem;
+    border: 2px solid #e6e5e5;
+    border: 1px solid #ccc;
+    color: #555;
+
+    padding: 6px 12px;
+    font-size: 1.4rem;
+}
+
+.input_textarea {
+    border: 1px solid #ccc;
+    color: #555;
+
+    height: 10rem;
+    padding: 6px 12px;
+    font-size: 1.4rem;
+}
+
+.form_button {
+    height: 4rem;
+    color: white;
+    background-color: #37fc21;
+    font-size: 1.6rem;
+    font-weight: 400;
+    text-align: center;
+    padding: 6px 12px;
+    border: none;
+}
+
+.form_button:active,
+.form_button:hover {
+    background-color: #fff;
+    border: 2px solid #37fc21;
+    color: #37fc21;
+}
+
+.submitError {
+    border: 1px solid red;
+    background-color: #f9524d;
+    padding: 0.73rem 3rem;
+    font-size: 1.6rem;
+    font-weight: 600;
+    margin-top: 1.2rem;
+}
+
+@media screen and (max-width: 1024px) {
+    /*contact*/
+    .contact_info_box {
+        width: 61.7rem;
+    }
+    /*contact-end*/
+}
+
+@media screen and (max-width: 768px) {
+    /*contact*/
+    .contact_info_box {
+        width: 100%;
+    }
+    /*contact-end*/
+}

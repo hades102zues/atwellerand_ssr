@@ -1,0 +1,13 @@
+/*sidedrawer*/
+.nav_logo{
+    
+    height:12rem;
+    width:12rem;
+}
+
+.nav_logo img{
+    object-fit: cover;
+    height:100%;
+    width:100%;
+}
+/*sidedrawer*/

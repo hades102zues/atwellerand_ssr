@@ -1,0 +1,208 @@
+/*Globals*/
+
+.wrapper{
+    width: 85%;
+    margin:0 auto;
+    overflow: hidden;
+    max-width: 125rem;
+
+}
+
+.sec_padding {
+	padding: 4.5rem 0;
+}
+
+.sec_grey{
+    background-color:#F8F9FA;
+}
+
+/*Global End*/
+
+/*showcase*/
+.mini_showcase{
+    height:27rem;
+    background-color:violet;
+}
+
+.showcase_title_space{
+    
+    height:27rem;
+    color:#ffffff;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+/*showcase-end*/
+
+/*Pageheader*/
+
+.tell_space{
+    margin-top:5rem;
+}
+/*Pageheader-end*/
+
+/*contact*/
+.contact_info_space{
+  
+}
+
+.contact_info_box{
+    width:75rem;
+    
+    margin: 0 auto ;
+    
+}
+
+
+.contact_form{
+    
+}
+
+.form-group{
+    display: flex;
+    flex-direction: column;
+    margin-bottom:1.5rem;
+}
+
+.form_label{
+    font-weight: 400;
+    font-size:16px;
+    
+}
+
+.input_field{
+    height:4.4rem;
+    border:2px solid #e6e5e5;
+    border: 1px solid #ccc;
+    color:#555;
+    
+    padding: 6px 12px;
+    font-size:1.4rem;
+}
+
+.input_textarea{
+    border: 1px solid #ccc;
+    color:#555;
+    
+    
+    height:10rem;
+    padding: 6px 12px;
+    font-size:1.4rem;
+}
+
+
+
+
+.services_button_space{
+  
+  border: 1px solid #ccc;
+  margin-top:4.3rem;
+  
+ 
+}
+
+.services_button_box{
+    padding-top:3rem;
+  
+    position:relative;
+}
+
+.serives_button_box__title_adjuster{
+text-align:center;
+position:absolute;
+top:0;
+width:100%;
+transform:translateY(-50%);
+display:flex;
+justify-content: center;
+
+}
+
+.serives_button_box__title{
+    font-size:1.8rem;
+    background-color:#fff;
+    text-align:center;
+}
+
+.radio_button_space{
+
+margin-top:2.5rem;
+}
+
+.radio_button_box{
+
+display: flex;
+    flex-flow:row wrap;
+    justify-content: center;
+    
+
+}
+
+.button_adjustment{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+    width:33%;
+    margin-bottom:2.5rem;
+}
+.button_adjustment input[type='radio'] {
+    
+    display:block;
+    
+}
+.button_adjustment label{
+    
+    margin-left:1rem;
+    font-size:1.6rem;
+}
+
+.form_button{
+    height:4rem;
+    margin-top:2.2rem;
+    color:white;
+    background-color: #37FC21;
+    font-size:1.6rem;
+    font-weight:400;
+    text-align:center;
+    padding: 6px 12px;
+    border: 3px solid red;
+}
+
+.form_button:active{
+    background-color:#fff;
+    color: #37FC21;
+}
+
+
+/*contact-end*/
+
+
+@media screen and (max-width:1024px){
+
+    /*contact*/
+    .contact_info_box{
+        width:61.7rem;
+      
+    }
+
+    
+    /*contact-end*/
+
+}
+
+@media screen and (max-width:768px){
+
+     /*contact*/
+     .contact_info_box{
+        width:100%;
+    }
+
+    .button_adjustment{
+        width:50%;
+    }
+  
+    /*contact-end*/
+
+}
+

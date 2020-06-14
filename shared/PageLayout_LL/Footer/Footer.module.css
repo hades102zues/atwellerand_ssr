@@ -1,0 +1,105 @@
+/*Globals*/
+
+.wrapper {
+    width: 85%;
+    margin: 0 auto;
+    overflow: hidden;
+    max-width: 125rem;
+}
+
+.sec_padding {
+    padding: 4.5rem 0;
+}
+
+.sec_grey {
+    background-color: #f8f9fa;
+}
+
+/*Global End*/
+
+/*Footer*/
+footer {
+    color: white;
+    background-color: #292f3d;
+}
+
+.info_space {
+    display: flex;
+    margin: 2rem 0;
+    height: 6rem;
+}
+
+.company_space {
+    width: 40%;
+}
+
+.company_footer_img_box {
+    width: 9rem;
+}
+
+.company_footer_logo {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.link_space {
+    width: 30%;
+}
+
+.link_box {
+    display: flex;
+    align-items: flex-end;
+
+    height: 100%;
+}
+
+.footer_heading {
+    font-size: 1.4rem;
+}
+
+.media_space {
+    width: 30%;
+}
+
+.media_box {
+    display: flex;
+    align-items: flex-end;
+
+    height: 100%;
+}
+
+.info_box__details {
+    margin-top: 0.6rem;
+}
+
+.info_box__hours {
+    margin-top: 1.2rem;
+}
+
+.something_info_space {
+    display: flex;
+}
+
+.business_info_space {
+    width: 40%;
+}
+
+.nav_link_space {
+    width: 30%;
+    padding-left: 2.5rem;
+}
+
+.social_link_space {
+    width: 30%;
+}
+
+.copyright_space {
+    margin-top: 4rem;
+    display: flex;
+    justify-content: center;
+}
+/*Footer*/
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+}

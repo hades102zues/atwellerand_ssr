@@ -1,0 +1,67 @@
+.wrapper {
+  width: 85%;
+  margin: 0 auto;
+  overflow: hidden;
+  max-width: 125rem;
+}
+
+.sec_padding {
+  padding: 4.5rem 0;
+}
+
+/*Global End*/
+
+/*Company-desc*/
+
+.main {
+  margin-bottom: 10rem;
+}
+
+.company_signature_space {
+  display: flex;
+  justify-content: center;
+}
+
+.company_signature_box {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.big_logo_img_box {
+  width: 20rem;
+  height: 20rem;
+}
+
+.company_logo {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.company_name {
+  margin-top: 1.5rem;
+  font-size: 3.2rem;
+  font-weight: 300;
+  text-align: center;
+}
+.company_slogan {
+  font-size: 1.7rem;
+}
+
+.company_desc_space {
+  margin-top: 4rem;
+  font-size: 1.6rem;
+}
+
+.desc {
+  text-align: center;
+  width: 70%;
+  margin: 0 auto;
+}
+/*Company-desc-end*/
+@media screen and (max-width: 768px) {
+  .desc {
+    width: 100%;
+  }
+}

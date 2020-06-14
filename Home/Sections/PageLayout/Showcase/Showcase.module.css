@@ -1,0 +1,175 @@
+/*Globals*/
+
+.wrapper {
+    width: 85%;
+    margin: 0 auto;
+    overflow: hidden;
+    max-width: 125rem;
+    position: relative;
+
+    height: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.sec_padding {
+    padding: 4.5rem 0;
+}
+
+.sec_grey {
+    background-color: #f8f9fa;
+}
+
+/*Global End*/
+
+/*Showcase*/
+.showcase {
+    /* background-color: rgb(207, 89, 207); */
+    /* background-image: url("./assets/showcase.jpg"); */
+    /*awaiting url of image*/
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.imgBox {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -2;
+}
+
+.imgBox img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.overlay {
+    /* display: none; */
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.65);
+    z-index: -1;
+}
+.devicePositioner {
+    flex: 1;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    padding-bottom: 20vh;
+}
+.selling_point_space {
+    height: 15rem;
+    margin-top: 10rem;
+}
+
+.sellling_point__main {
+    font-size: 6.5rem;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.selling_point__supporting {
+    font-weight: 300;
+    font-size: 3rem;
+    color: #ffffff;
+    margin-top: 1.2rem;
+}
+
+.selling_point_button_space {
+    margin-top: 7rem;
+}
+
+.selling_point_buttons {
+    height: 6rem;
+}
+
+.selling_point__button {
+    margin-right: 3rem;
+    height: 100%;
+    border: none;
+    color: #ffffff;
+    padding: 6px 12px;
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+
+.selling_point__buttonEmphasis {
+    background-color: #37fc21;
+}
+
+.selling_point__buttonEmphasis:hover,
+.selling_point__buttonEmphasis:active {
+    background-color: #37fc21;
+    opacity: 0.75;
+}
+
+.selling_point__buttonNotice {
+    border: 2px solid #37fc21;
+    background: transparent;
+}
+
+.selling_point__buttonNotice:hover,
+.selling_point__buttonNotice:active {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+.badge {
+    position: absolute;
+    height: 30rem;
+    width: 30rem;
+    bottom: 0;
+    z-index: 30;
+    transform: translateY(50%) translateX(-50%);
+    left: 50%;
+}
+
+.badge img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+/*Showcase*/
+
+@media screen and (max-width: 768px) {
+    .sellling_point__main {
+        font-size: 3.2rem;
+    }
+    .selling_point__supporting {
+        font-size: 2.2rem;
+    }
+    .badge {
+        height: 17rem;
+        width: 17rem;
+    }
+}
+@media screen and (max-height: 480px) {
+    .showcase {
+        height: 76.8rem;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    /*showcase*/
+
+    .sellling_point__main {
+        font-size: 4.2rem;
+    }
+
+    .selling_point__supporting {
+        margin-top: 2.5rem;
+        font-size: 2.8rem;
+    }
+
+    .selling_point_button_space {
+        margin-top: 7rem;
+    }
+}
+
+/*showcase*/

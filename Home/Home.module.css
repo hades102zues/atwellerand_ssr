@@ -1,0 +1,490 @@
+/*Globals*/
+
+.wrapper {
+    width: 85%;
+    margin: 0 auto;
+    overflow: hidden;
+    max-width: 125rem;
+}
+
+.sec_padding {
+    padding: 4.5rem 0;
+}
+
+.sec_grey {
+    background-color: #f8f9fa;
+}
+
+/*Global End*/
+
+/**/
+
+/********IGNORE THE FOLLOWING*/
+/*sidedrawer*/
+.nav_logo {
+    height: 12rem;
+    width: 12rem;
+}
+
+.nav_logo img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+/*sidedrawer*/
+
+/*Header*/
+header {
+}
+
+.header_space {
+    display: flex;
+    height: 6rem;
+}
+
+.logo_space {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.logo_box {
+    height: 100%;
+    width: 6rem;
+}
+
+.logo_box img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.nav_space {
+    width: 50%;
+    height: 100%;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.nav_link_box {
+    height: 80%;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.nav_link_box__item {
+    margin-top: 1rem;
+    margin-right: 2rem;
+    font-size: 1.6rem;
+}
+
+/*Header*/
+
+/*Showcase*/
+.showcase {
+    background-color: violet;
+    height: 51.6rem;
+    /*will get a background image*/
+}
+
+.selling_point_space {
+    height: 15rem;
+    margin-top: 10rem;
+}
+
+.sellling_point__main {
+    font-size: 6rem;
+    font-weight: 500;
+    color: #ffffff;
+}
+
+.selling_point__supporting {
+    font-weight: 300;
+    font-size: 2.7rem;
+    color: #ffffff;
+    margin-top: 1.2rem;
+}
+
+.selling_point_button_space {
+    margin-top: 4rem;
+}
+
+.selling_point_buttons {
+    height: 4rem;
+}
+
+.selling_point__button {
+    margin-right: 3rem;
+    height: 100%;
+    border: none;
+    color: #ffffff;
+    padding: 6px 12px;
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+
+.selling_point__buttonEmphasis {
+    background-color: #37fc21;
+}
+
+.selling_point__buttonNotice {
+    border: 2px solid #37fc21;
+    background: transparent;
+}
+
+/*Showcase*/
+
+/*Services*/
+
+.section__title {
+    text-align: center;
+    font-size: 4.2rem;
+    font-weight: 300;
+}
+
+.services_space {
+    margin-top: 4.2rem;
+}
+
+.services_box {
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.service {
+    padding: 4.2rem 2rem;
+    height: 27.2rem;
+    width: 29rem;
+    margin-bottom: 3rem;
+}
+
+.service_icon_box {
+    height: 6rem;
+    width: 6rem;
+    margin: 0 auto 0 auto;
+}
+
+.service_icon_box img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.service__title {
+    margin-top: 1.5rem;
+    font-weight: 600;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.service__description {
+    margin-top: 1.5rem;
+    text-align: center;
+    font-size: 14px;
+}
+/*Services end*/
+
+/*Pricing*/
+.wrapper2 {
+    width: 85%;
+    margin: 0 auto;
+    max-width: 125rem;
+}
+.pricing {
+    background-color: #f8faff;
+}
+
+.pricing_sec_title {
+    font-size: 4.2rem;
+    font-weight: 300;
+}
+
+.princing_sec_desc {
+    width: 60%;
+    margin-top: 3rem;
+    font-size: 1.6rem;
+}
+
+.plan_space {
+    margin-top: 3rem;
+}
+
+.plan_box {
+    width: 80%;
+    margin: 4rem auto;
+
+    color: #0b1b20;
+}
+
+.plans {
+    padding: 3rem 2rem;
+    -webkit-box-shadow: 2px 2px 18px 0 rgba(72, 73, 121, 0.15);
+    -moz-box-shadow: 2px 2px 18px 0 rgba(72, 73, 121, 0.15);
+    box-shadow: 2px 2px 18px 0 rgba(72, 73, 121, 0.15);
+}
+
+.plans__hours {
+    text-align: center;
+    font-size: 2.4rem;
+}
+
+.plans__errandtitle {
+    margin-top: 3rem;
+    font-size: 1.8rem;
+}
+
+.rate_space {
+    margin-top: 1.5rem;
+    padding-left: 2rem;
+}
+
+.rate_box {
+}
+
+.rate_box_list {
+    display: flex;
+    width: 60%;
+    margin-bottom: 1.5rem;
+}
+
+.rate_box_list .day,
+.rate_box_list .rate {
+    width: 50%;
+    font-size: 1.4rem;
+}
+
+.color_highlight {
+    color: #37fc21;
+}
+
+.rate_notice {
+    font-weight: bold;
+    font-size: 1.6rem;
+}
+
+.alert_highlight {
+    color: red;
+}
+
+.additional_plan {
+    margin-top: 2rem;
+    font-size: 1.6rem;
+}
+
+/*Pricing-end*/
+
+/*testimonial*/
+.testimonial_section {
+}
+/*testimonial*/
+
+/*Footer*/
+footer {
+    color: white;
+    background-color: #292f3d;
+}
+
+.info_space {
+    display: flex;
+    margin: 2rem 0;
+    height: 6rem;
+}
+
+.company_space {
+    width: 40%;
+}
+
+.company_footer_img_box {
+    background-color: red;
+    width: 6rem;
+}
+
+.company_footer_logo {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.link_space {
+    width: 30%;
+}
+
+.link_box {
+    display: flex;
+    align-items: flex-end;
+
+    height: 100%;
+}
+
+.footer_heading {
+    font-size: 1.4rem;
+}
+
+.media_space {
+    width: 30%;
+}
+
+.media_box {
+    display: flex;
+    align-items: flex-end;
+
+    height: 100%;
+}
+
+.info_box__details {
+    margin-top: 0.6rem;
+}
+
+.info_box__hours {
+    margin-top: 1.2rem;
+}
+
+.something_info_space {
+    display: flex;
+}
+
+.business_info_space {
+    width: 40%;
+}
+
+.nav_link_space {
+    width: 30%;
+    padding-left: 2.5rem;
+}
+
+.social_link_space {
+    width: 30%;
+}
+
+.copyright_space {
+    margin-top: 4rem;
+    display: flex;
+    justify-content: center;
+}
+/*Footer*/
+
+@media screen and (max-width: 768px) {
+    /*showcase*/
+    .sellling_point__main {
+        font-size: 4.2rem;
+    }
+
+    .selling_point__supporting {
+        font-size: 2.2rem;
+    }
+
+    .selling_point_button_space {
+        margin-top: 7rem;
+    }
+
+    /*showcase*/
+
+    .plans {
+        margin-left: 1rem;
+        margin-right: 2rem;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .nav_link_box {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    /*Services*/
+    .services_box {
+        flex-direction: column;
+    }
+
+    .service {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /*Services-end*/
+
+    /*Plans*/
+
+    .plan_box {
+        width: 100%;
+    }
+    .princing_sec_desc {
+        width: 100%;
+    }
+
+    .rate_box_list {
+        width: 100%;
+    }
+    /*plans end*/
+
+    /*footer*/
+    .info_box__details {
+    }
+    /*footer*/
+}
+
+@media screen and (min-width: 480px) and (max-width: 768px) {
+    /*Services*/
+    .services_box {
+        flex-direction: column;
+    }
+
+    .service {
+        width: 30rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    /*Services-end*/
+
+    /*Plans*/
+    .plan_box {
+        width: 100%;
+    }
+
+    .princing_sec_desc {
+        width: 100%;
+    }
+
+    .rate_box_list {
+        width: 100%;
+    }
+
+    /*plans end*/
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    /*Services*/
+    .services_box {
+        flex-direction: column;
+    }
+
+    .service {
+        width: 30rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    /*Services-end*/
+
+    /*plan*/
+    .rate_box_list {
+        display: flex;
+        width: 80%;
+    }
+    /*plan*/
+}
+
+@media screen and (min-width: 1366px) and (max-width: 1920px) {
+    /*Services*/
+    .service {
+        width: 34rem;
+    }
+    /*Services-end*/
+}

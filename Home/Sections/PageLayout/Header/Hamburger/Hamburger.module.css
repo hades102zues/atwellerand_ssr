@@ -1,0 +1,17 @@
+.hamburger {
+  width: 23px;
+}
+
+.hamburger__slice {
+  width: "100%";
+  height: 3px;
+  background-color: white;
+  border-radius: 3px;
+  margin-bottom: 4px;
+}
+
+@media screen and (min-width: 1025px) {
+  .hamburger {
+    display: none;
+  }
+}

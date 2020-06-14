@@ -1,0 +1,49 @@
+/*Globals*/
+
+.wrapper {
+    width: 85%;
+    margin: 0 auto;
+    overflow: hidden;
+    max-width: 125rem;
+}
+
+.sec_padding {
+    padding: 2.5rem 0;
+}
+
+.sec_grey {
+    background-color: #f8f9fa;
+}
+
+/*Global End*/
+
+/*showcase*/
+
+.mini_showcase {
+    padding: 4.5rem 0;
+    background-color: #f8f9fa;
+}
+
+.showcase_title_space {
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.showcase_box h1,
+.showcase_box h3 {
+    text-align: center;
+}
+
+.showcase_box h1 {
+    font-weight: 700;
+    font-size: 5rem;
+    color: #333;
+}
+
+.showcase_box h3 {
+    color: #ccc;
+    margin-top: 2rem;
+}
+/*showcase-end*/
