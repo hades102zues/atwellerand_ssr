@@ -10,7 +10,7 @@ interface ServiceCardInfo {
 interface Props {
   showHeader: boolean;
 }
-const services: React.FC<Props> = (props) => {
+const Services: React.FC<Props> = (props) => {
   //will hold data to be injected into the services cards
   const servicesInputs: ServiceCardInfo[] = [
     {
@@ -73,4 +73,4 @@ const services: React.FC<Props> = (props) => {
   );
 };
 
-export default services;
+export default Services;

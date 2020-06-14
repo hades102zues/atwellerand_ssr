@@ -6,7 +6,7 @@ const location_icon = "/icons8-marker-48 (1).png";
 const phone_icon = "/icons8-phone-48.png";
 const email_icon = "/icons8-secured-letter-48.png";
 
-const info: React.FC = () => {
+const Info: React.FC = () => {
   return (
     <section className={styles.sec_padding}>
       <div className={styles.bussiness_info_space}>
@@ -57,4 +57,4 @@ const info: React.FC = () => {
   );
 };
 
-export default info;
+export default Info;

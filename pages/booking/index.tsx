@@ -12,6 +12,7 @@ export default function Booking() {
       <HtmlHead
         title="Book Now - ASDA Errand & Rental Service, Barbados"
         contentDescription={"Choose the services which cover your needs."}
+        canonical="https://asdaservicesbds.com"
       />
       <PageLayout>
         <Bookingpage />

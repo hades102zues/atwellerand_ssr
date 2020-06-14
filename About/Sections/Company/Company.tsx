@@ -3,7 +3,7 @@ import styles from "./Company.module.css";
 
 const logo = "/asda.jpg";
 
-const company: React.FC = () => {
+const Company: React.FC = () => {
   return (
     <main className={styles.sec_padding + " " + styles.main}>
       <div className={styles.wrapper}>
@@ -39,4 +39,4 @@ const company: React.FC = () => {
   );
 };
 
-export default company;
+export default Company;

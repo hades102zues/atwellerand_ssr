@@ -5,7 +5,7 @@ import Showcase from "./Sections/MiniShowcase/MiniShowcase";
 import ContactForm from "./Sections/Form/Form";
 import Info from "./Sections/Info/Info";
 
-const contact: React.FC = () => {
+const Contact: React.FC = () => {
   return (
     <div className={styles.contact}>
       <Showcase />
@@ -23,4 +23,4 @@ const contact: React.FC = () => {
   );
 };
 
-export default contact;
+export default Contact;

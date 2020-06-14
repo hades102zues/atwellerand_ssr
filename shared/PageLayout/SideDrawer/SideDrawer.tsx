@@ -16,7 +16,7 @@ interface Props {
   modalClick: () => any;
 }
 
-const sideDrawer: React.FC<Props> = (props) => {
+const SideDrawer: React.FC<Props> = (props) => {
   const navList: string[] = [
     "Home",
     "About",
@@ -86,4 +86,4 @@ const sideDrawer: React.FC<Props> = (props) => {
   return SideDrawer;
 };
 
-export default sideDrawer;
+export default SideDrawer;

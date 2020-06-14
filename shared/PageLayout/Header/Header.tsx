@@ -10,7 +10,7 @@ interface IProps {
   clickForBurger: () => any;
 }
 
-const header: React.FC<IProps> = (props) => {
+const Header: React.FC<IProps> = (props) => {
   const navName = ["Home", "Services", "About", "Book Now", "Contact"];
   const router = useRouter();
 
@@ -62,4 +62,4 @@ const header: React.FC<IProps> = (props) => {
   );
 };
 
-export default header; //del
+export default Header; //del

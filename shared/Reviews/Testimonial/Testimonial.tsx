@@ -11,7 +11,7 @@ interface Testimonial {
   country?: string;
 }
 
-const testimonial: React.FC = () => {
+const Testimonial: React.FC = () => {
   //data list for the testimonial cards
   const testimonialInput: Testimonial[] = [
     {
@@ -64,4 +64,4 @@ const testimonial: React.FC = () => {
   );
 };
 
-export default testimonial;
+export default Testimonial;

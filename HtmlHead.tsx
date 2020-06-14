@@ -3,6 +3,7 @@ import Head from "next/head";
 interface Props {
   title: string;
   contentDescription: string;
+  canonical: string;
 }
 const HtmlHead: React.FC<Props> = (props) => {
   return (
@@ -85,9 +86,9 @@ const HtmlHead: React.FC<Props> = (props) => {
         crossOrigin="anonymous"
       />
 
-      <link rel="canonical" href="https://asdaservicesbds.com" />
+      <link rel="canonical" href={props.canonical} />
       <meta name="description" content={props.contentDescription} />
-      <meta name="robots" content="noindex" />
+      {/* <meta name="robots" content="noindex" /> */}
 
       <meta name="theme-color" content="#ffffff" />
       <meta name="theme-color" content="#000000" />
