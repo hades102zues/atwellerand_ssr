@@ -15,7 +15,7 @@ export default function About() {
         contentDescription={
           "We are a family centered business in Barbados that caters to all areas of the market."
         }
-        canonical="https://asdaservicesbds.com"
+        canonical="https://asdaservicesbds.com/about"
       />
       <PageLayout>
         <Aboutpage />

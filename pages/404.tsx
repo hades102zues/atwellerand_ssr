@@ -13,7 +13,7 @@ export default function Custom404() {
         contentDescription={
           "Located in Barbados, ASDA Errand & Rental Services is dedicated to saving you time, stress and all at a valued price! Visit our main website..."
         }
-        canonical="https://asdaservicesbds.com"
+        canonical="https://asdaservicesbds.com/404"
       />
       <Unkownpage />
     </div>

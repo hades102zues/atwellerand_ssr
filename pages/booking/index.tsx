@@ -11,8 +11,8 @@ export default function Booking() {
     <div className="booking">
       <HtmlHead
         title="Book Now - ASDA Errand & Rental Service, Barbados"
-        contentDescription={"Choose the services which cover your needs."}
-        canonical="https://asdaservicesbds.com"
+        contentDescription="Choose the services which cover your needs."
+        canonical="https://asdaservicesbds.com/booking"
       />
       <PageLayout>
         <Bookingpage />

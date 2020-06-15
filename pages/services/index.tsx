@@ -15,7 +15,7 @@ export default function Services() {
         contentDescription={
           "What we offer at ASDA Errand & Rental Service are a wide variety of services to fit your every need."
         }
-        canonical="https://asdaservicesbds.com"
+        canonical="https://asdaservicesbds.com/services"
       />
       <PageLayout>
         <ServicesPage />

@@ -88,10 +88,16 @@ const HtmlHead: React.FC<Props> = (props) => {
 
       <link rel="canonical" href={props.canonical} />
       <meta name="description" content={props.contentDescription} />
+
+      <meta property="og:url" content={props.canonical} />
+      <meta property="og:title" content={props.title} />
+      <meta property="og:description" content={props.contentDescription} />
+      <meta property="og:type" content="website" />
+      <meta property="og:image" content="http://asdaservicesbds.com/asda.jpg" />
+
       {/* <meta name="robots" content="noindex" /> */}
 
-      <meta name="theme-color" content="#ffffff" />
-      <meta name="theme-color" content="#000000" />
+      <meta name="theme-color" content="#37fc21" />
 
       <title>{props.title}</title>
     </Head>

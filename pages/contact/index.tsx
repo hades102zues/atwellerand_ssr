@@ -12,7 +12,7 @@ export default function Contact() {
       <HtmlHead
         title="Contact - ASDA Errand & Rental Service, Barbados"
         contentDescription={"Need to ask a question? Fill out the form below!"}
-        canonical="https://asdaservicesbds.com"
+        canonical="https://asdaservicesbds.com/contact"
       />
       <PageLayout>
         <ContactPage />
