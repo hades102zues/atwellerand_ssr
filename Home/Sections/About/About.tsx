@@ -13,7 +13,7 @@ const About: React.FC = () => (
             <p className={styles.description}>
               Our Goal is to make our client's life more rewarding by giving
               them back the most precious asset there is - TIME, which can be
-              lost dealing with the hassles of life.
+              lost dealing with the complications of life.
             </p>
           </article>
         </div>

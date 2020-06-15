@@ -11,7 +11,7 @@ export default function Home() {
       <HtmlHead
         title="ASDA Errand & Rental Service, Barbados"
         contentDescription={
-          "Located in Barbados, ASDA Errand & Rental Services is dedicated to saving you time, stress and all at a valued price! Visit our main website..."
+          "Located in Barbados, ASDA Errand & Rental Service is dedicated to handling your errands: saving you time, stress and all at a valued price! Visit our main website..."
         }
         canonical="https://asdaservicesbds.com"
       />
