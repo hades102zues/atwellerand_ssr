@@ -1,10 +1,10 @@
 import React from "react";
 import styles from "./About.module.css";
-import Reviews from "./Sections/Reviews/Reviews";
 
+import Reviews from "../shared/Reviews/Reviews";
 import CompanyInfo from "./Sections/Company/Company";
 
-const about: React.FC = () => {
+const About: React.FC = () => {
   return (
     <div className={styles.about}>
       <CompanyInfo />
@@ -13,4 +13,4 @@ const about: React.FC = () => {
   );
 };
 
-export default about;
+export default About;

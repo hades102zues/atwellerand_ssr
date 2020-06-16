@@ -5,7 +5,7 @@ import Link from "next/link";
 const logo = "/asda.png";
 const fb_icon = "/icons8-facebook-48.png";
 
-const footer: React.FC = () => {
+const Footer: React.FC = () => {
   const navName = ["Home", "Services", "About", "Book Now", "Contact"];
 
   const navLinks = navName.map(
@@ -114,4 +114,4 @@ const footer: React.FC = () => {
   );
 };
 
-export default footer;
+export default Footer;

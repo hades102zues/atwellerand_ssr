@@ -35,7 +35,8 @@ const Showcase: React.FC<IProps> = ({ children }) => {
               </Fade>
               <Fade bottom>
                 <h2 className={styles.selling_point__supporting}>
-                  We save you time, stress and all at a valued price!
+                  Let us handle your errands. We save you time, stress and all
+                  at a valued price!
                 </h2>
               </Fade>
             </div>

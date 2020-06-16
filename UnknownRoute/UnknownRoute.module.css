@@ -1,0 +1,58 @@
+/*Globals*/
+
+.wrapper{
+    width: 85%;
+    margin:0 auto;
+    overflow: hidden;
+    max-width: 125rem;
+
+}
+
+/*globals*/
+
+/*404*/
+
+.info4_space{
+
+height:80vh;
+margin-top:50px;
+}
+
+.four{
+    color:#333;
+    font-size: 12rem;
+    text-align:center;
+}
+
+.tell{
+margin-top:2rem;
+font-size:2.7rem;
+color:#ccc;
+text-align: center;
+}
+
+/*404-end*/
+
+/*Button*/
+
+.button_space{
+    margin-top:4rem;
+    display: flex;
+    justify-content: center;
+}
+
+.button_box{
+    height:4rem;
+}
+
+.redirect_button{
+    height:100%;
+    border:none;
+    color:#ffffff;
+    padding: 6px 12px;
+    font-size:1.6rem;
+    font-weight:400;
+    background-color:#37FC21;
+}
+
+/*Button-end*/

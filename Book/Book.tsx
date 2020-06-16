@@ -4,7 +4,7 @@ import styles from "./Book.module.css";
 import Showcase from "./Sections/MiniShowcase/MiniShowcase";
 import ReservationForm from "./Sections/Form/ReservationForm";
 
-const book: React.FC = () => {
+const Book: React.FC = () => {
   return (
     <div className="">
       <Showcase />
@@ -26,4 +26,4 @@ const book: React.FC = () => {
   );
 };
 
-export default book;
+export default Book;

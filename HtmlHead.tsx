@@ -3,6 +3,7 @@ import Head from "next/head";
 interface Props {
   title: string;
   contentDescription: string;
+  canonical: string;
 }
 const HtmlHead: React.FC<Props> = (props) => {
   return (
@@ -11,14 +12,30 @@ const HtmlHead: React.FC<Props> = (props) => {
       <meta name="viewport" content="width=device-width, initial-scale=1" />
 
       {/* IOS Safari Simply rename the original touch icon to produce the precompose */}
-      {/* <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png" />
-        <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png" />
-        <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png" />
-        <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png" />
-        <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png" />
-        <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png" />
-        <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png" />
-        <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png" />  */}
+      <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png" />
+      <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png" />
+      <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png" />
+      <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png" />
+      <link
+        rel="apple-touch-icon"
+        sizes="114x114"
+        href="/apple-icon-114x114.png"
+      />
+      <link
+        rel="apple-touch-icon"
+        sizes="120x120"
+        href="/apple-icon-120x120.png"
+      />
+      <link
+        rel="apple-touch-icon"
+        sizes="144x144"
+        href="/apple-icon-144x144.png"
+      />
+      <link
+        rel="apple-touch-icon"
+        sizes="152x152"
+        href="/apple-icon-152x152.png"
+      />
       <link
         rel="apple-touch-icon"
         sizes="180x180"
@@ -77,6 +94,7 @@ const HtmlHead: React.FC<Props> = (props) => {
         name="google-site-verification"
         content="TE9BbEIc_lk2K2wuEZO_HOkQ2IYGx_wHyajLgZCIAHI"
       />
+      <meta name="msvalidate.01" content="6AADFD01F66737A33383B17A13C96B68" />
 
       <link
         rel="stylesheet"
@@ -85,12 +103,18 @@ const HtmlHead: React.FC<Props> = (props) => {
         crossOrigin="anonymous"
       />
 
-      <link rel="canonical" href="https://asdaservicesbds.com" />
+      <link rel="canonical" href={props.canonical} />
       <meta name="description" content={props.contentDescription} />
-      <meta name="robots" content="noindex" />
 
-      <meta name="theme-color" content="#ffffff" />
-      <meta name="theme-color" content="#000000" />
+      <meta property="og:url" content={props.canonical} />
+      <meta property="og:title" content={props.title} />
+      <meta property="og:description" content={props.contentDescription} />
+      <meta property="og:type" content="website" />
+      <meta property="og:image" content="http://asdaservicesbds.com/asda.jpg" />
+
+      {/* <meta name="robots" content="noindex" /> */}
+
+      <meta name="theme-color" content="#37fc21" />
 
       <title>{props.title}</title>
     </Head>

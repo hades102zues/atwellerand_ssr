@@ -1,0 +1,28 @@
+{
+  "hosting": {
+    "public": "out",
+    "rewrites": [
+      {
+        "source": "/about",
+        "destination": "/about.html"
+      },
+      {
+        "source": "/services",
+        "destination": "/services.html"
+      },
+      {
+        "source": "/contact",
+        "destination": "/contact.html"
+      },
+      {
+        "source": "/booking",
+        "destination": "/booking.html"
+      },
+      {
+        "source": "/",
+        "destination": "/index.html"
+      }
+    ],
+    "ignore": ["firebase.json", "**/.*", "**/node_modules/**"]
+  }
+}

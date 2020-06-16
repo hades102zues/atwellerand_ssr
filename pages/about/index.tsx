@@ -2,16 +2,12 @@ import "react-app-polyfill/ie9";
 import "react-app-polyfill/ie11";
 import "react-app-polyfill/stable";
 
-import Head from "next/head";
 import HtmlHead from "../../HtmlHead";
-import { useRouter } from "next/router";
 
 import Aboutpage from "../../About/About";
 import PageLayout from "../../shared/PageLayout/PageLayout";
 
 export default function About() {
-  const router = useRouter();
-  console.log(router);
   return (
     <div className="about">
       <HtmlHead
@@ -19,6 +15,7 @@ export default function About() {
         contentDescription={
           "We are a family centered business in Barbados that caters to all areas of the market."
         }
+        canonical="https://asdaservicesbds.com/about"
       />
       <PageLayout>
         <Aboutpage />
