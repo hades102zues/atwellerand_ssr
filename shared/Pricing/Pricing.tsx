@@ -107,21 +107,23 @@ const Pricing: React.FC = () => {
                       <p className={styles.special_price}>$25</p>
                     </div>
                   </div>
-
                   <div className={styles.day_info}>
-                    <p className={styles.day}>Groups (5-7 people)</p>
+                    <p className={styles.day}>Regular Tours</p>
                     <div className={styles.special_price_box}>
                       <p className={styles.special_price}>$50</p>
                     </div>
                   </div>
                   <div className={styles.day_info}>
-                    <p className={styles.day}>Island Tours</p>
+                    <p className={styles.day}>Groups Tours (5-7 people)</p>
                     <div className={styles.special_price_box}>
                       <p className={styles.special_price}>$60</p>
                     </div>
                   </div>
                 </div>
-
+                <p className={styles.disclaimer}>
+                  Note that "standard" transportation booked after 5pm will be
+                  billed at $30.
+                </p>
                 <p className={styles.disclaimer}>
                   Rates are billed per hour or part thereof.
                 </p>
@@ -150,7 +152,7 @@ const Pricing: React.FC = () => {
                   <div className={styles.day_info}>
                     <p className={styles.day}>House Rentals</p>
                     <p style={{ color: "red" }}>
-                      Calculated Upon Client Request
+                      Price will depend on availability.
                     </p>
                   </div>
                 </div>

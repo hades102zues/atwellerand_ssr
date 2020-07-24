@@ -102,12 +102,17 @@ const Footer: React.FC = () => {
           <p className={styles.copy_text}>
             &copy; 2020, ASDA Errand & Rental Service. <br />
           </p>
-          {/* { <p>
-                        {" "}
-                        <a href="https://icons8.com/" target="_blank" rel="noopener noreferrer">
-                            Icons provided by icons8.com
-                        </a>
-                    </p>} */}
+
+          <p style={{ marginLeft: 5, color: "#333" }}>
+            {" "}
+            <a
+              href="https://icons8.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Icons provided by icons8.com
+            </a>
+          </p>
         </div>
       </div>
     </footer>
