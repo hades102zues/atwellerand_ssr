@@ -23,9 +23,9 @@ interface FormikInputs {
   message: string;
   captchaDidVerify: boolean;
 
-  formDidSubmit?: false; //server responded with a 2xx
-  errorDidOccur?: false; //responded with anything other than 2xx
-  isWaiting?: false; //used to display Sending...  on the button until server response returns
+  formDidSubmit?: boolean; //server responded with a 2xx
+  errorDidOccur?: boolean; //responded with anything other than 2xx
+  isWaiting?: boolean; //used to display Sending...  on the button until server response returns
 }
 
 interface IState {
