@@ -28,9 +28,9 @@ const Company: React.FC = () => {
               We are a family centered business that caters to all areas of the
               market. We live by our core values Honesty, Innovation, Discipline
               & Reliability. <br /> This has driven us to broaden our range of
-              services as demand dictates. Our Goal is to make our clients life
-              more rewards by giving them back the most precious asset there is
-              - TIME, which can be lost doing Errands.
+              services as demand dictates. Our Goal is to make our clients' life
+              more rewarding by giving them back the most precious asset there
+              is - TIME, which can be lost doing Errands.
             </p>
           </div>
         </div>
