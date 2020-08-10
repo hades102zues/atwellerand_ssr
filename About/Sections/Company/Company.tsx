@@ -16,6 +16,7 @@ const Company: React.FC = () => {
                 className={styles.company_logo}
               />
             </div>
+            <p className={styles.founded}>Founded in 2005</p>
             <h2 className={styles.company_name}>
               ASDA Errand & Rental Service
             </h2>

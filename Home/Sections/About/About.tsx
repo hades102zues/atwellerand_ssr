@@ -6,9 +6,7 @@ const About: React.FC = () => (
     <div className={styles.wrapper}>
       <div className={styles.describe_space}>
         <div className={styles.companyDescribe}>
-          {/* {<div className={styles.companyDescribe__companyLogoBox}>
-                    <img src={logo} alt="company_logo" />
-                </div>} */}
+          <p className={styles.founded}>Founded in 2005</p>
           <article className={styles.companyDescribe__companyDescription}>
             <p className={styles.description}>
               Our Goal is to make our client's life more rewarding by giving
