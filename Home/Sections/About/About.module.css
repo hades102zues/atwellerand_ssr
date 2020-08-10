@@ -1,72 +1,80 @@
 .wrapper {
-    width: 85%;
-    margin: 0 auto;
-    overflow: hidden;
-    max-width: 125rem;
+  width: 85%;
+  margin: 0 auto;
+  overflow: hidden;
+  max-width: 125rem;
 }
 
 .sec_padding {
-    padding: 7rem 0;
+  padding: 7rem 0;
 }
 
 .sec_grey {
-    background-color: fff;
+  background-color: fff;
+}
+
+.founded {
+  font-size: 15px;
+  font-weight: 550;
+  text-align: center;
+  margin-bottom: 15px;
 }
 
 .companyDescribe {
-    display: flex;
-    justify-content: center;
-    margin-top: 7rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 7rem;
 }
 
 .companyDescribe__companyLogoBox {
-    width: 35%;
+  width: 35%;
 
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
-    padding-right: 4rem;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding-right: 4rem;
 }
 .companyDescribe__companyLogoBox img {
-    height: 18rem;
-    width: 18rem;
+  height: 18rem;
+  width: 18rem;
 }
 
 .companyDescribe__companyDescription {
-    width: 65%;
+  width: 65%;
 }
 
 .companyDescribe__companyDescription h3 {
-    font-size: 2rem;
+  font-size: 2rem;
 }
 
 .companyDescribe__companyDescription p {
-    font-size: 2rem;
-    text-align: center;
-    /* border: 2px solid orange; */
-    width: 70%;
-    margin: 0 auto;
-    color: #333;
-    font-weight: 700;
+  font-size: 2rem;
+  text-align: center;
+  /* border: 2px solid orange; */
+  width: 70%;
+  margin: 0 auto;
+  color: #333;
+  font-weight: 700;
 }
 @media screen and (max-width: 768px) {
-    .companyDescribe {
-        margin-top: 2rem;
-        text-align: left;
-    }
+  .companyDescribe {
+    margin-top: 2rem;
+    text-align: left;
+  }
 }
 @media screen and (max-width: 1024px) {
-    .companyDescribe__companyLogoBox,
-    .companyDescribe__companyDescription {
-        width: 100%;
-    }
+  .companyDescribe__companyLogoBox,
+  .companyDescribe__companyDescription {
+    width: 100%;
+  }
 
-    .companyDescribe__companyLogoBox {
-        justify-content: center;
-        align-items: center;
-        padding: 0;
-    }
-    .companyDescribe__companyDescription p {
-        width: 100%;
-    }
+  .companyDescribe__companyLogoBox {
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+  }
+  .companyDescribe__companyDescription p {
+    width: 100%;
+  }
 }

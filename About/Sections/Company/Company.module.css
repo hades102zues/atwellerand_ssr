@@ -17,6 +17,10 @@
   margin-bottom: 10rem;
 }
 
+.founded {
+  font-size: 15px;
+  font-weight: 550;
+}
 .company_signature_space {
   display: flex;
   justify-content: center;
@@ -40,7 +44,7 @@
 }
 
 .company_name {
-  margin-top: 1.5rem;
+  margin-top: 1.7rem;
   font-size: 3.2rem;
   font-weight: 300;
   text-align: center;
