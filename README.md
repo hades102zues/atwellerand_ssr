@@ -1,6 +1,6 @@
 Commission by Richard Atwell for his errand and rental services business.
 
-Front end for the business's website Built using Next.js & Typescript.
+This is the Front-end built using Next.js & Typescript.
 
 
 https://asdaservicesbds.com
