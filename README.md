@@ -1,4 +1,4 @@
-Commission by Richard Atwell for his errand and rental serives business.
+Commission by Richard Atwell for his errand and rental services business.
 
 Front end for the business's website Built using Next.js & Typescript.
 
